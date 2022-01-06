@@ -1,0 +1,37 @@
+
+.half-width img{
+    width: 80%;
+    
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.fexible-container{
+    display: flex;
+    margin-bottom: 150px;
+}
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+.salmon-color{
+    color: salmon;
+}
+#border{
+  
+    border-left: 3px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+    border-radius: 5px;
+    padding-left: 7px;
+}
+.button{
+    text-decoration: none;
+    background-color: tomato;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 5px 25px;
+}
