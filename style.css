@@ -1,4 +1,6 @@
-
+body{
+    font-family: 'Oswald', sans-serif;
+}
 .half-width img{
     width: 80%;
     
@@ -9,7 +11,7 @@
 }
 .fexible-container{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 80px;
 }
 h1{
     font-family: 'Playfair Display', serif;
@@ -36,9 +38,76 @@ h1{
     padding: 5px 25px;
 }
 
-.center{
+#center{
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Work Sans', sans-serif;
     color: #13103A;
+}
+.small-illu{
+    width: 40%;
+}
+.card-bg{
+    background-color: rgb(177, 202, 228);
+    padding: 30px;
+    border-radius: 10px;
+    margin-left: 20px;
+
+}
+.card-bg h3 {
+    font-size: 25px;
+    font-weight: 700;
+}
+.card-bg p{
+    color: rgb(77, 76, 76);
+}
+#color-1{
+    background-color: rgb(211, 190, 188);
+}
+#color-2{
+    background-color: rgb(196, 138, 127);
+}
+
+.left{
+    width: 50%;
+    margin-left:-70px  ;
+    
+}
+h2{
+    font-size: 30px;
+}
+.left img{
+    width: 60%;
+    margin-left: 150px;
+    
+}
+.radius{
+    border-radius: 15px;
+}
+.social-border{
+    
+    margin-top: 40px;
+     margin-left: 5%;
+     margin-right: 5%;
+  padding: 3%;
+     box-shadow: 10px 10px 40px  gray;
+     border-radius: 15px;
+     
+ }
+ .flex{
+    display: flex;
+   margin-bottom: 40px;
+}
+ #youtube{
+    text-align: left;
+padding-left: 10%;
+
+}
+#instragram{
+    text-align: center;
+    padding-left: 20%;
+}
+#Likes{
+    text-align: right;
+    padding-left: 25%;
 }
